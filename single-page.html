@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Single-page</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+	<link rel = "preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<script src="https://use.fontawesome.com/0c6c22b8c4.js"></script>
+</head>
+
+<body>
+	<header class="header">
+			<div class="wrap header-wrap">
+				<a href="index.html" class="logo">
+					<img src="img/group_2_18.png" alt="" class="img-logo">
+					<p class="text-logo">BRAN</p>
+					<p class="text-logo text-logo-D">D</p>
+				</a>
+				<section class="search">
+					<div class="browse">
+						<h2 class="search-text">Browse</h2>
+						<i class="fa fa-caret-down" aria-hidden="true"></i>
+					</div>
+					<form class="for-item">
+						<input class="search-field" type="text" required placeholder="Search for Item...">
+						<button class="vert" type="submit">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					</form>
+				</section>
+				<section class="account">
+					<a href="shopping-cart.html">
+						<img src="img/forma_1_1113.png" alt="">
+					</a>
+					<div class="my-acount">
+						<h2 class="accout-text">My Account</h2>
+						<i class="fa fa-caret-down" aria-hidden="true"></i>
+					</div>
+				</section>
+			</div>
+	</header>
+	<nav class="nav">
+			<div class="wrap nav-wrap">
+				<ul class="main-nav">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="product.html" class="nav-link">Man</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Kids</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Accoseriese</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Featured</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Hot Deals</a></li>
+				</ul>
+			</div>
+	</nav>
+	<section class="bredcrumb">
+			<div class="wrap bredcrumb-wrap">
+				<h2 class="bredcrumb-h2">New Arrivals</h2>
+				<ul class="bredcrumb-nav">
+					<li class="bredcrumb-nav-item"><a href="#" class="bredcrumb-nav-link">Home /</a></li>
+					<li class="bredcrumb-nav-item"><a href="#" class="bredcrumb-nav-link">Men /</a></li>
+					<li class="bredcrumb-nav-item"><a href="#" class="bredcrumb-nav-link bredcrumb-nav-link-active">new arrivals</a></li>
+				</ul>
+			</div>
+	</section>
+	
+	
+
+	<div class="image-slider">
+		<div class="image-slider-left">
+			<a href="">
+				<div class="image-slider-pagin">
+					<i class="fa fa-angle-left" aria-hidden="true"></i>
+				</div>
+			</a>
+		</div>
+		<div class="image-slider-centr">
+			<a href="#">
+				<img src="img/layer_42_2490.jpg" alt="">
+			</a>
+		</div>
+		<div class="image-slider-rigcht">
+			<a href="">
+				<div class="image-slider-pagin">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+		
+	<section class="product-description">
+		<div class="wrap">
+			<h2>WOMEN COLLECTION</h2>
+			<div class="devider">
+				<div class="shape"></div>
+				<div class="rectangele"></div>
+			</div>
+			<p class="product-description-p1">Moschino Cheap And Chic</p>
+			<div class="product-description-text">
+				Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.
+			</div>
+			<div class="product-description-text2">
+				<div class="product-description-text2-1">
+					MATERIAL: <p class="product-description-text2-2">COTTON</p> 
+				</div>
+				<div class="product-description-text2-1">
+					DESIGNER:<p class="product-description-text2-2">BINBURHAN</p> 
+				</div>
+			</div>
+			<p class="product-description-text2-3">$561</p> 
+			<div class="product-description-line"></div>
+			<div class="product-description-filter">
+				<div class="product-description-filter-col">
+					<p class="product-description-text2-2">CHOOSE COLOR</p> 
+					<select class="choose-color">
+						<option value="Red">Red</option>
+						<option value="Blue">Blue</option>
+						<option value="Green">Green</option> 
+					</select>
+				</div>
+				<div class="product-description-filter-col">
+					<p class="product-description-text2-2">CHOOSE SIZE</p> 
+					<select class="choose-color">
+						<option value="XXL">XXL</option> 
+						<option value="XXS">XXS</option>
+						<option value="XL">XL</option>
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+					</select>
+				</div>
+				<div class="product-description-filter-col">
+					<p class="product-description-text2-2">QUANTITY</p> 
+					<input id="QUANTITY" type="number" required min="0" max="10" class="choose-color" value="2">
+				</div>
+				
+			</div>
+			<div class="product-description-cont-btn">
+				<div class="product-description-btn" >
+						<div class="product-description-btn-img"></div>
+						Add to Cart
+				</div>
+			</div>
+
+		</div>
+	</section>	
+	
+	<section class="product">
+			<h2 class="product-p3">you may like also</h2>
+			
+			<div class="product-cont">
+				<div class="product-cont-elem">
+					<img src="img/rectangle_6_1.jpg" alt="">
+					<div class="product-cont-elem-img">
+						<a href="#" class="product-cont-elem-img-1">
+							<img src="img/forma_1_copy_1287.png" alt="">
+							<p>Add to Cart</p>
+						</a>
+					</div>
+					<div class="product-cont-elem-text">
+						<p class="product-cont-img-p1 single-page-p1">BLAZE LEGGINGS</p>
+						<p class="product-cont-img-p2">$52.00</p>
+					</div>
+				</div>
+				<div class="product-cont-elem">
+					<img src="img/rectangle_6_2.jpg" alt="">
+					<div class="product-cont-elem-img">
+						<a href="#" class="product-cont-elem-img-1">
+							<img src="img/forma_1_copy_1287.png" alt="">
+							<p>Add to Cart</p>
+						</a>
+					</div>
+					<div class="product-cont-elem-text">
+						<p class="product-cont-img-p1 single-page-p1">ALEXA SWEATER</p>
+						<p class="product-cont-img-p2">$52.00</p>
+					</div>
+				</div>
+				<div class="product-cont-elem">
+					<img src="img/rectangle_6_3.jpg" alt="">
+					<div class="product-cont-elem-img">
+						<a href="#" class="product-cont-elem-img-1">
+							<img src="img/forma_1_copy_1287.png" alt="">
+							<p>Add to Cart</p>
+						</a>
+					</div>
+					<div class="product-cont-elem-text">
+						<p class="product-cont-img-p1 single-page-p1">AGNES TOP</p>
+						<p class="product-cont-img-p2">$52.00</p>
+					</div>
+				</div>
+				<div class="product-cont-elem">
+					<img src="img/rectangle_6_4.jpg" alt="">
+					<div class="product-cont-elem-img">
+						<a href="#" class="product-cont-elem-img-1">
+							<img src="img/forma_1_copy_1287.png" alt="">
+							<p>Add to Cart</p>
+						</a>
+					</div>
+					<div class="product-cont-elem-text">
+						<p class="product-cont-img-p1 single-page-p1">SYLVA SWEATER</p>
+						<p class="product-cont-img-p2">$52.00</p>
+					</div>
+				</div>
+				
+			</div>
+	</section>
+
+	<section class="subscribe">
+				<div class="wrap wrap">
+					<div class="subscribe-1">
+						<div class="subscribe-1-1">
+							<img src="img/ellipse_3_2206.png" alt="">
+						</div>
+						<div class="subscribe-1-2">
+							<h2 class="subscribe-1-2-p1">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+							a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</h2>
+							<p class="subscribe-1-2-p2">Bin Burhan</p>
+							<p class="subscribe-1-2-p3">Dhaka, Bd</p>
+							<div class="subscribe-1-2-slaid">
+								<div class="subscribe-1-2-slaid-elem"></div>
+								<div class="subscribe-1-2-slaid-elem active"></div>
+								<div class="subscribe-1-2-slaid-elem"></div>
+							</div>
+						</div>
+					</div>
+					<div class="subscribe-2"></div>
+					<div class="subscribe-3">
+						<div class="subscribe-3-1">
+							<p class="subscribe-3-p1">Subscribe</p>
+							<p class="subscribe-3-p2">FOR OUR NEWLETTER AND PROMOTION</p>
+							
+
+							<form class="subscribe-3-cont">
+								<input id="email" class="subscribe-3-cont-1" type="email" required pattern="\S+@[a-z]+.[a-z]+" placeholder="Enter Your Email">
+								<button class="subscribe-3-cont-2" type="submit">
+									Subscribe
+								</button>
+							</form>
+
+
+
+						</div>
+					</div>
+				</div>
+	</section >
+			
+		
+	<footer>
+			<div class="wrap wrap-footer">
+				<div class="footer-1">
+					<a href="index.html">
+						<div class="logo">
+							<img src="img/group_2_18.png" alt="" class="img-logo">
+							<p class="text-logo">BRAN</p>
+							<p class="text-logo text-logo-D">D</p>
+						</div>
+					</a>
+					<p class="footer-1-p"> Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. <br><br>
+					Efficiently plagiarize 24/365 action items and focused infomediaries.
+					Distinctively seize superior initiatives for wireless technologies. Dynamically optimize
+					</p>
+					
+				</div>
+				<div class="footer-2">
+					<p class="footer-234-p">COMPANY</p>
+					<ul class="footer-nav">
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Shop</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">About</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">How It Works</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer-3">
+					<p class="footer-234-p">INFORMATION</p>
+					<ul class="footer-nav">
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Tearms & Condition</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">How to Buy</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">How to Sell</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Promotion</a></li>
+					</ul>
+				</div>
+				<div class="footer-4">
+					<p class="footer-234-p">SHOP CATEGORY</p>
+					<ul class="footer-nav">
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Men</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Women</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Child</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Apparel</a></li>
+						<li class="footer-nav-item"><a href="#" class="footer-nav-link">Brows All</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-footer">
+				<div class="wrap wrap-footer-footer">
+					<div class="footer-footer-1">
+						© 2017  Brand  All Rights Reserved.
+					</div>
+					<div class="footer-footer-2">
+						<a href="">
+						<div class="rectangle">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+						</a>
+						<a href="">
+						<div class="rectangle">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						</a>
+						<a href="">
+						<div class="rectangle">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</div>
+						</a>
+						<a href="">
+						<div class="rectangle">
+							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+						</div>
+						</a>
+						<a href="">
+						<div class="rectangle">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+	</footer>
+</body>
+
+
+</html>
+
+
+
+
+
