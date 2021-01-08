@@ -1515,61 +1515,63 @@ input[type=range]::-webkit-slider-thumb {
 	margin-right: 15px;
 }
 /********************************Shopping-cart**********************************/
-.shopping-cart_wrap{
-	display: flex;
-	flex-direction: column;
-	margin: 90px auto 80px auto;
-}
-.shopping-cart_grid {
-	display: grid;
-	grid-template-columns: 123px 480px 120px 120px 120px 120px 55px;
-	grid-template-rows: 1fr;
-	i{
-		margin: auto;
-		cursor: pointer;
-	}
-}
-.shopping-cart_grid_separator{
-	margin: 25px 0 25px 0;
-	height: 1px;
-	background-color: #000000;
-	border: 1px solid #eaeaea;
-}
-.shopping-cart_grid h2{
-	@include font_common(13px, Lato, 20px, 700, 0.025em);
-	text-transform: uppercase;
-	color: #222222;
-	text-align: center;
-}
-.shopping-cart_grid_2 {
-	h3{
-		margin-bottom: 38px;
-		}
-	&-1{
+.shopping-cart{
+	&_wrap{
 		display: flex;
-		&-1{
-			@include font_common(13px, Lato, 20px, 400, 0.025em);
-			color: #575757;
-		}
-		&-2{
-			margin-left: 10px;
-			@include font_common(13px, Lato, 20px, 300, 0.025em);
-			color: #6f6e6e;
+		flex-direction: column;
+		margin: 90px auto 80px auto;
+	}
+	&_grid {
+		display: grid;
+		grid-template-columns: 123px 480px 120px 120px 120px 120px 55px;
+		grid-template-rows: 1fr;
+		i{
+			margin: auto;
+			cursor: pointer;
 		}
 	}
-}
-.shopping-cart_grid_3{
-	@include font_common(13px, Lato, 20px, 400, 0.025em);
-	color: #656565;
-	margin: auto;
-	&.grid_3_1{
-		width: 54px;
-		height: 30px;
-		background-color: #ffffff;
+	&_grid_separator{
+		margin: 25px 0 25px 0;
+		height: 1px;
+		background-color: #000000;
 		border: 1px solid #eaeaea;
+	}
+	&_grid h2{
+		@include font_common(13px, Lato, 20px, 700, 0.025em);
+		text-transform: uppercase;
+		color: #222222;
 		text-align: center;
-		line-height: 27px;
-}
+	}
+	&_grid_2 {
+		h3{
+			margin-bottom: 38px;
+		}
+		&-1{
+			display: flex;
+			&-1{
+				@include font_common(13px, Lato, 20px, 400, 0.025em);
+				color: #575757;
+			}
+			&-2{
+				margin-left: 10px;
+				@include font_common(13px, Lato, 20px, 300, 0.025em);
+				color: #6f6e6e;
+			}
+		}
+	}
+	&_grid_3{
+		@include font_common(13px, Lato, 20px, 400, 0.025em);
+		color: #656565;
+		margin: auto;
+		&.grid_3_1{
+			width: 54px;
+			height: 30px;
+			background-color: #ffffff;
+			border: 1px solid #eaeaea;
+			text-align: center;
+			line-height: 27px;
+		}
+	}
 }
 /******************кнопки*/
 @mixin button1($butw:235px,$buth:50px,$but_b_c:#ffffff,$but_bord_b_c:#eaeaea){
