@@ -1585,7 +1585,7 @@ input[type=range]::-webkit-slider-thumb {
 	transition: all 0.5s;
 	}
 
-.shopping_cart_button{
+.shopping-cart_button{
 	display: flex;
 	justify-content: space-between;
 	margin: 20px 0 63px 0;
@@ -1690,7 +1690,7 @@ input[type=range]::-webkit-slider-thumb {
 	}
 }
 /*******************заголовки-шрифты*/
-.shopping_cart_z{
+.shopping-cart_z{
 	@include font_common(16px, Lato, 1.2, 700, 0.025em);
 	text-transform: uppercase;
 	color: #222222;
